@@ -26,7 +26,7 @@ public class OneServiceImpl {
     @GlobalTransactional
     public void updateTwo() {
         twoService.updateOne();
-        int err = 1 / 0;
+        //int err = 1 / 0;
         oneMapper.updateOne();
     }
 }
